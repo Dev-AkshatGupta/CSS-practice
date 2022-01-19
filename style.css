@@ -199,3 +199,6 @@ main button:nth-child(2)::before {
 .footer-bar__4>ul>li>h4{
     font-weight: 600;   
 }
+.footer-bar__5{
+    background-color: #485258;
+}
