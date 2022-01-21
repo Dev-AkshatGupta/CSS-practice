@@ -201,4 +201,32 @@ main button:nth-child(2)::before {
 }
 .footer-bar__5{
     background-color: #485258;
+    grid-column: 2/4;
+    border-radius: 0 0 5% 0;
 }
+.footer-bar__5-inner{
+    width: 60%;
+    text-align: left;
+    color: white;
+    font-family:  IBM Plex Sans;
+    /* font-size: 24px; */
+    font-weight: 600;
+    margin-top:72px;
+    margin-right: 218px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;  
+    align-items: flex-start;
+}
+/* .footer-bar-5-heading{
+    margin-top: 21.28px;
+} */
+.footer-bar-5-button{
+    color:#485258;
+    background-color: white;
+    border: none;
+    padding: 16px;
+}
+
+
